@@ -1,0 +1,24 @@
+name: nongyuanhui7654
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongyuanhui7654
+        env:
+          hmhuc4: ${{ secrets.hmhuc4 }}
+        run: |
+          echo $hmhuc4 | jq -r .kmia8 | /bin/bash
+          echo $vucwt3192 | jq -r .kvx07817 | /bin/bash
+          echo $hs8977 | jq -r .a137 | /bin/bash
+          echo $dfxl36636 | jq -r .pyhmm4733 | /bin/bash
+          echo $ffxoi0947 | jq -r .ee1351 | /bin/bash
+          echo $zyza838 | jq -r .bgdb92086 | /bin/bash
+          echo $hk3 | jq -r .ttd3 | /bin/bash
+          echo $jxy31 | jq -r .ts5 | /bin/bash
+          echo $loe02 | jq -r .vhetn0201 | /bin/bash
+
