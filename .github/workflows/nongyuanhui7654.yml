@@ -2,23 +2,27 @@ name: nongyuanhui7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
-jobs:  # 9450
+    - cron: '7 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: nongyuanhui7654
         env:
-          hmhuc4: ${{ secrets.hmhuc4 }}
+          aezaz1: ${{ secrets.aezaz1 }}
         run: |
-          echo $hmhuc4 | jq -r .kmia8 | /bin/bash
-          echo $vucwt3192 | jq -r .kvx07817 | /bin/bash
-          echo $hs8977 | jq -r .a137 | /bin/bash
-          echo $dfxl36636 | jq -r .pyhmm4733 | /bin/bash
-          echo $ffxoi0947 | jq -r .ee1351 | /bin/bash
-          echo $zyza838 | jq -r .bgdb92086 | /bin/bash
-          echo $hk3 | jq -r .ttd3 | /bin/bash
-          echo $jxy31 | jq -r .ts5 | /bin/bash
-          echo $loe02 | jq -r .vhetn0201 | /bin/bash
+          echo $aezaz1 | jq -r .acq93 | /bin/bash
+          echo $lqv6583 | jq -r .rrri0 | /bin/bash
+          echo $po0 | jq -r .eshrj83 | /bin/bash
+          echo $ykn1 | jq -r .pf48416 | /bin/bash
+          echo $dsrvz0243 | jq -r .yog61 | /bin/bash
+          echo $dndku513 | jq -r .st72 | /bin/bash
+          echo $nufpn83079 | jq -r .afx5 | /bin/bash
+          echo $zbie89 | jq -r .vsn1489 | /bin/bash
+          echo $paw2 | jq -r .u9 | /bin/bash
+          echo $h07792 | jq -r .mztl1180 | /bin/bash
+          echo $wje0 | jq -r .wk588 | /bin/bash
+          echo $wfxxf1 | jq -r .inuwb03 | /bin/bash
 
