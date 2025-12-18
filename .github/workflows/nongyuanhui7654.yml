@@ -3,25 +3,22 @@ name: nongyuanhui7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '2 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: nongyuanhui7654
         env:
-          mk46522: ${{ secrets.mk46522 }}
+          gwqrg78744: ${{ secrets.gwqrg78744 }}
         run: |
-          echo $mk46522 | jq -r .bnnxh68770 | /bin/bash
-          echo $hqmvr75 | jq -r .uqfeh451 | /bin/bash
-          echo $qribc95093 | jq -r .cxou5675 | /bin/bash
-          echo $vqbv23986 | jq -r .t8769 | /bin/bash
-          echo $u51298 | jq -r .f928 | /bin/bash
-          echo $fk767 | jq -r .lgx5538 | /bin/bash
-          echo $uqo1 | jq -r .lucw3 | /bin/bash
-          echo $qb918 | jq -r .qmlxw72 | /bin/bash
-          echo $uyi496 | jq -r .egh6214 | /bin/bash
-          echo $kl66 | jq -r .yxbb7610 | /bin/bash
+          echo $gwqrg78744 | jq -r .dk5534 | /bin/bash
+          echo $fq8966 | jq -r .ui246 | /bin/bash
+          echo $hdr0902 | jq -r .ji02 | /bin/bash
+          echo $sm7708 | jq -r .vbatn9 | /bin/bash
+          echo $bhxvz04729 | jq -r .fer6691 | /bin/bash
+          echo $nonh9 | jq -r .vzmc825 | /bin/bash
+          echo $kzoyy792 | jq -r .fyah911 | /bin/bash
 
