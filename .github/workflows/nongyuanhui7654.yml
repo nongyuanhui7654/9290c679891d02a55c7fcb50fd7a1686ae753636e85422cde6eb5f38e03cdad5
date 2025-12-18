@@ -3,7 +3,7 @@ name: nongyuanhui7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
+    - cron: '38 1/6 * * *'
 
 jobs:
   build:
@@ -12,13 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: nongyuanhui7654
         env:
-          gwqrg78744: ${{ secrets.gwqrg78744 }}
+          xavxo69: ${{ secrets.xavxo69 }}
         run: |
-          echo $gwqrg78744 | jq -r .dk5534 | /bin/bash
-          echo $fq8966 | jq -r .ui246 | /bin/bash
-          echo $hdr0902 | jq -r .ji02 | /bin/bash
-          echo $sm7708 | jq -r .vbatn9 | /bin/bash
-          echo $bhxvz04729 | jq -r .fer6691 | /bin/bash
-          echo $nonh9 | jq -r .vzmc825 | /bin/bash
-          echo $kzoyy792 | jq -r .fyah911 | /bin/bash
+          echo $xavxo69 | jq -r .ds3808 | /bin/bash
+          echo $s44 | jq -r .yr9749 | /bin/bash
+          echo $ev00 | jq -r .s40 | /bin/bash
+          echo $feedt442 | jq -r .qex4174 | /bin/bash
+          echo $lxmz75 | jq -r .rxx1262 | /bin/bash
+          echo $mwatc6 | jq -r .n3060 | /bin/bash
+          echo $mr003 | jq -r .z2 | /bin/bash
+          echo $o9231 | jq -r .ikeen430 | /bin/bash
+          echo $ytdpl3 | jq -r .psnc6293 | /bin/bash
 
